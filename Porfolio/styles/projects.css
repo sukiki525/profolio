@@ -1,0 +1,64 @@
+
+.container {
+
+	position: relative;
+}
+
+
+.item1,
+.item2,
+.item3 {
+	width: 80%;
+    
+}
+
+.container div img {
+	width: 100%;
+	display: block;
+    margin-left: 15%;
+    
+}
+
+.arrow i {
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+.left_arrow:hover,
+.right_arrow:hover {
+	opacity: 1;
+	transform: scale(1.2, 1.2);
+
+}
+
+.left_arrow,
+.right_arrow {
+	opacity: 1; 
+	opacity: 0.5;
+	transition: 0.5s;
+    /* border:1px solid red; */
+    color:black;
+    font-size: 2em;
+}
+
+.right_arrow {
+	position: absolute;
+	right: 1rem;
+	top: 45%;
+
+
+
+}
+
+.left_arrow {
+	position: absolute;
+	left: 1rem;
+	top: 45%;
+}
+
+.footage{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0;
+}
